@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Variáveis de ambiente
+.env
+
+# Firebase
+firebase-key.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Coverage testes
+coverage/
