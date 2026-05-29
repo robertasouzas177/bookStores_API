@@ -28,7 +28,7 @@ class UsersRepository {
   async update(id: string, data: any) {
 
   const docRef =
-    db.collection('usuarios').doc(id);
+    db.collection('usuariosAPI').doc(id);
 
   await docRef.update(data);
 
