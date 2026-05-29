@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --include=DEV
+RUN npm install --include=dev
 
 COPY . .
 
