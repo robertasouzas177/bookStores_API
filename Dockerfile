@@ -4,11 +4,13 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --include=DEV
 
 COPY . .
 
 RUN npm run build
+
+RUN npm prune --production
 
 EXPOSE 3000
 
